@@ -1,0 +1,38 @@
+---
+title: "Terminology"
+format: 
+    html:
+      toc: true
+editor: visual
+---
+
+This will definitely NOT be a comprehensive list of terms, but rather ones that stick out or may be confusing.
+
+## Data Types and Structures
+
+* Vector: basic data structure that represents an ordered collection of elements of the same data type. R supports various types of vectors, including numeric, character, logical, integer, and complex vectors. Vectors are one-dimensional arrays and can be created using the c() function, which stands for "combine" or "concatenate."
+
+* Atomic Vector: basic data structure that can hold elements of the same data type. It is called "atomic" because each element of the vector is considered an indivisible, single entity. Atomic vectors can be of different types, and the main types include numeric, integer, logical, character, and complex.
+
+* List (vector): list is a type of vector, but unlike atomic vectors where all elements must be of the same data type, a list allows for a mix of different types of elements. This makes lists suitable for storing and organizing heterogeneous data.
+
+* Matrix: two-dimensional data structure that contains elements of the same data type arranged in rows and columns. Essentially, it is a rectangular grid of numbers, characters, or other data types. Matrices are particularly useful for mathematical operations and represent a fundamental data structure in linear algebra.
+
+* Dataframe: two-dimensional tabular data structure that is used to store and organize data in a way that is similar to a spreadsheet or a relational database table. It is a fundamental and versatile data structure in R and is commonly used in data analysis, statistical modeling, and other data-centric tasks.
+
+Key features of dataframes in R include:
+
+  1. Rectangular Structure: Dataframes have a rectangular shape, with rows and columns. Each column represents a variable, and each row represents an observation or record.
+  
+  2. Columns of Different Types: Unlike matrices, dataframes can contain columns with different data types (e.g., numeric, character, factor, etc.).
+  
+  3. Column Names: Columns in a dataframe have names, allowing easy reference and manipulation. Column names can be used to access specific variables in the dataframe.
+  
+  4. Labels for Rows and Columns: Both rows and columns can have labels, making it easy to refer to specific entries in the dataframe.
+  
+
+## GitHub
+
+* Repo: centralized location that stores a collection of files and their revision history.
+
+
