@@ -1,0 +1,33 @@
+---
+title: "Common issues Randy sees, and solutions"
+format: html
+editor: visual
+---
+
+## Most common things to look for when you get errors
+
+1. Reading in data
+
+```{r}
+data <- read.csv('dataset.csv')
+```
+* keep everything in a r-studio project
+* check for typos
+* google for the dataset
+* check directory
+* use TAB for autofill to help prevent typos
+
+
+2. Packages
+
+
+```{r}
+library(tidyverse)
+
+df <- cars %>%
+  filter
+```
+
+* always check for packages
+* google the function or obv the error
+* remember you can define which package to get function from using ::
